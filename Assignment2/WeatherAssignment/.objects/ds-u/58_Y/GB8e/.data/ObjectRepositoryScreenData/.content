@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="anZMl2G3wEeRbUad7I87mg" Reference="CvkAlCAurUyR31f_-KIoJQ/GB8ehA8pdkGMIlCwldLsEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="oPaezo-PoUSO---O-1oTrA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGfSURBVDhPfVO7LkVBFD0FIUqzRqFS+AIaOiWFR5g9Xgki6P0EtUQk3pGI0PgHohEhCJ1aO3skHvcKR/Yx57jGvXayi3msNXvWXjtJ/gkmbZxRg/F+zUhn2hrZqG1HGPBG9zHhjQmvzqhhZ/Uskz5OF5L6GFfEEzV3MyFlwgcTLr3Ve5JMuAp7KY+iI8YlaU9SJwds1Q6TumXbMsKklz3hlAknbPVS9h3CPVts+tHmrsf+1qaCgA2Owss3njDBhJewrsxnbzDpCXeydhb7BYEcMOHTG4zVAP+QWIzLXTaaCgJRmgnnzujVKqBf6YxaEX1E6G+wVUOZ2gYbQaw/oCgvpFNMKMl38/JLTFhnwnUVQJyXTNiSR+XxyirOQxUxIM61X1+QYKutCOOMmmJCuQooz7KzajoTXMovCAwOwoUbZ7HIhPcq4Hc5y9vIhMOCQEyRudBiMzOSwVzwxkPIQ7aYFyN5UrtiOjFfQZAHEzoD+0dwoQi77ghnuZXFhTGuCBkUGRgZHBmgfJg86V4RTdqX9rU3xLiakXXHtozE+5XxBYzxg093G9VzAAAAAElFTkSuQmCC" Reference="CvkAlCAurUyR31f_-KIoJQ/GB8ehA8pdkGMIlCwldLsEw" Selector="&lt;html app='chrome.exe' title='* Weather Forecast | AccuWeather' /&gt;" Url="https://www.accuweather.com/en/eg/cairo/127164/weather-forecast/127164?type=locality&amp;city=cairo" Version="V3">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="6337dc8cc8275ad27b3b0c240f4318fd.jpg" xmlns="">0VZE35LcH6EmDyogI56p42w</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

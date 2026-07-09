@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Cairo, Cairo, Egypt Weather Forecast  ",
+  "Type": "Screen",
+  "Id": "GB8ehA8pdkGMIlCwldLsEw",
+  "Reference": "CvkAlCAurUyR31f_-KIoJQ/GB8ehA8pdkGMIlCwldLsEw",
+  "ParentRef": "CvkAlCAurUyR31f_-KIoJQ/58_YWmnF4E2c1ghSEJF7yQ",
+  "Created": "2026-07-09T05:24:09.4875844Z",
+  "Updated": "2026-07-09T05:24:09.4875844Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="OUTXI27CZUiuj2W9HdULxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGfSURBVDhPfVO7LkVBFD0FIUqzRqFS+AIaOiWFR5g9Xgki6P0EtUQk3pGI0PgHohEhCJ1aO3skHvcKR/Yx57jGvXayi3msNXvWXjtJ/gkmbZxRg/F+zUhn2hrZqG1HGPBG9zHhjQmvzqhhZ/Uskz5OF5L6GFfEEzV3MyFlwgcTLr3Ve5JMuAp7KY+iI8YlaU9SJwds1Q6TumXbMsKklz3hlAknbPVS9h3CPVts+tHmrsf+1qaCgA2Owss3njDBhJewrsxnbzDpCXeydhb7BYEcMOHTG4zVAP+QWIzLXTaaCgJRmgnnzujVKqBf6YxaEX1E6G+wVUOZ2gYbQaw/oCgvpFNMKMl38/JLTFhnwnUVQJyXTNiSR+XxyirOQxUxIM61X1+QYKutCOOMmmJCuQooz7KzajoTXMovCAwOwoUbZ7HIhPcq4Hc5y9vIhMOCQEyRudBiMzOSwVzwxkPIQ7aYFyN5UrtiOjFfQZAHEzoD+0dwoQi77ghnuZXFhTGuCBkUGRgZHBmgfJg86V4RTdqX9rU3xLiakXXHtozE+5XxBYzxg093G9VzAAAAAElFTkSuQmCC" Selector="&lt;html app='chrome.exe' title='Local, National, &amp;amp; Global Daily Weather Forecast | AccuWeather' /&gt;" Url="https://www.accuweather.com/" Version="V3">
+      <imageRef attrName="InformativeScreenshot" originalValue="a22f36e96fba9f7c8cac457c8182b5c7.jpg" xmlns="">0QhnCKGFvYUij26cyWvJRKQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

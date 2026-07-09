@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Local, National, & Global Daily Weathe",
+  "Type": "Screen",
+  "Id": "fd2lZD32IkKwonZOscmHIg",
+  "Reference": "CvkAlCAurUyR31f_-KIoJQ/fd2lZD32IkKwonZOscmHIg",
+  "ParentRef": "CvkAlCAurUyR31f_-KIoJQ/58_YWmnF4E2c1ghSEJF7yQ",
+  "Created": "2026-07-09T05:17:55.5769384Z",
+  "Updated": "2026-07-09T05:17:55.5769384Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "A enegcairo127164c…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "dbih5SbTQEm3XsYwTMjm3w",
+  "Reference": "CvkAlCAurUyR31f_-KIoJQ/dbih5SbTQEm3XsYwTMjm3w",
+  "ParentRef": "CvkAlCAurUyR31f_-KIoJQ/GB8ehA8pdkGMIlCwldLsEw",
+  "Created": "2026-07-09T05:24:56.5394498Z",
+  "Updated": "2026-07-09T05:24:56.5394498Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
