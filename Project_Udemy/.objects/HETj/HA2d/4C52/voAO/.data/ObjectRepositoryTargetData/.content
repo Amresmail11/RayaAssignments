@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NAw-oqQRW0GHFxUoIpGacQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="udemy.com/courses/search" DesignTimeRectangle="152, 232, 525, 618" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='vertical-card-module--card--Lgh-9 course-product-card--card--vJXkx' tag='SECTION' /&gt;" Guid="38d36827-4dd3-432d-9f27-ab87d76d221e" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='usi_last_url_1=https://www.udemy.com/courses/search/?srcUSIEQLSukw&amp;amp;qUSIEQLSai=1783614783915;usi_pv_count=12=1783614783915;' title='Search results | Udemy' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e1507e5ff4b4d383f45afa78d41a7b35.jpg" xmlns="">0N46oUsTlkUetuK7Us04osA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

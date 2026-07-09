@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EzQcz-UZQki85eWtDCz3Dw" Reference="4z0pUYqlt0mltA2OTYmI2A/XklRT8YQEEyVQsneCXzUkw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="udemy.com/courses/search" DesignTimeRectangle="173, 545, 483, 54" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='A' type='' class='ud-link-neutral ud-custom-focus-visible' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="23f9ec19-b099-4ccc-8280-1be5d190cb5a" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='usi_last_url_1=https://www.udemy.com/courses/search/?srcUSIEQLSukw&amp;amp;qUSIEQLSai=1783614783915;usi_pv_count=12=1783614783915;' title='Search results | Udemy' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f1b175a2a77b9c9ca58f93169660bc63.jpg" xmlns="">0m3nNN1qLdEKWJvf6bqTNSg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

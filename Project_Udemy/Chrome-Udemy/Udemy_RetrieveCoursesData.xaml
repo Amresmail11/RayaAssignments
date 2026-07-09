@@ -1,0 +1,300 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Udemy_RetrieveCoursesData" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="List_Rating" Type="OutArgument(scg:List(x:String))">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
+    <x:Property Name="List_Price" Type="OutArgument(scg:List(x:String))">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
+    <x:Property Name="List_Authors" Type="OutArgument(scg:List(x:String))">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
+    <x:Property Name="List_Titles" Type="OutArgument(scg:List(x:String))">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Udemy_RetrieveCoursesData" sap:VirtualizedContainerService.HintSize="534,1274.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" Default="1" Name="int_indxx" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Search results  Udemy(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="513.6,1251.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="e5f07dee-8f68-435d-9d70-7bed6eb82f1e" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,1056.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="str_Title" />
+              <Variable x:TypeArguments="x:String" Name="str_Author" />
+              <Variable x:TypeArguments="x:String" Name="str_Price" />
+              <Variable x:TypeArguments="x:Int32" Default="0" Name="int_indx" />
+              <Variable x:TypeArguments="x:String" Name="str_Rating" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'The Complete AI Guide …(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,193.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e5f07dee-8f68-435d-9d70-7bed6eb82f1e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="udemy.com/courses/search" ContentHash="1pALJpe9eka7LMvd4TZFaw" DesignTimeRectangle="173, 545, 483, 54" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="53f47242-5b63-45ca-aec8-1343ed05c635" InformativeScreenshot="d57eb65766efd35024d55c431da9ba7b.jpg" Reference="4z0pUYqlt0mltA2OTYmI2A/Q3XGAWzzhUOP7Qd7MMwG4g" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='usi_last_url_1=https://www.udemy.com/courses/search/?srcUSIEQLSukw&amp;amp;qUSIEQLSai=1783614783915;usi_pv_count=12=1783614783915;' title='Search results | Udemy' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.FullSelectorArgument>
+                    <InArgument x:TypeArguments="x:String">
+                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">string.Format("&lt;webctrl parentclass='ud-heading-lg card-title-module--title--bv1rZ ud-custom-focus-visible' idx='{0}' /&gt;", int_indxx)</CSharpValue>
+                    </InArgument>
+                  </uix:TargetAnchorable.FullSelectorArgument>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Title" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,142.4" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="e5f07dee-8f68-435d-9d70-7bed6eb82f1e" Version="V5">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="udemy.com/course/complete-ai-guide" ContentHash="JSBdSUnsu0K3wo5QYPOMJw" DesignTimeRectangle="242, 421, 945, 88" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="2ff1647d-cdae-4da3-a819-f104dbbe57a2" InformativeScreenshot="674ddaec1b2b6c050ea598ae050c84d0.jpg" Reference="4z0pUYqlt0mltA2OTYmI2A/xC9BX9trAkyREfWWXRGdWA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Complete AI Guide: Learn ChatGPT, Claude &amp;amp; Generative AI' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NGetText.Target>
+              <uix:NGetText.TextString>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">str_Title</CSharpReference>
+                </OutArgument>
+              </uix:NGetText.TextString>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Author" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,142.4" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="e5f07dee-8f68-435d-9d70-7bed6eb82f1e" Version="V5">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="udemy.com/course/complete-ai-guide" CVScreenId="a19e17e6-f368-41ec-8e9b-aad77275d7c4" ContentHash="eWt9RhcyYkWQMnM7pWHIfQ" CvType="AnyWordGroup" DesignTimeRectangle="242, 674, 945, 32" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;span' tag='SPAN' /&gt;" Guid="0933dca6-9c9a-44c4-8f35-594b864ed131" InformativeScreenshot="12c5d8f1b26175b2eb4dd3170e438777.jpg" Reference="4z0pUYqlt0mltA2OTYmI2A/E5lpWJgfakOk-ov8xyy0zQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='usi_last_url_1=https://www.udemy.com/course/complete-ai-guide/?couponCodeUSIEQLSUDEAFFHP22025=1783617602897;usi_pv_count=15=1783617602897;usi_subtotal==1784200803923;usi_pids=5170404=1784200803923;usi_prod_name_1=The Complete AI Guide: Learn ChatGPT, Claud*' title='The Complete AI Guide: Learn ChatGPT, Claude &amp;amp; Generative AI' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NGetText.Target>
+              <uix:NGetText.TextString>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">str_Author</CSharpReference>
+                </OutArgument>
+              </uix:NGetText.TextString>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Price" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,142.4" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="e5f07dee-8f68-435d-9d70-7bed6eb82f1e" Version="V5">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="udemy.com/course/complete-ai-guide" CVScreenId="a19e17e6-f368-41ec-8e9b-aad77275d7c4" ContentHash="6Z1Dj2ek90KONw26XJjXYw" CvType="AnyWordGroup" DesignTimeRectangle="1366, 658, 225, 26" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="c14a399f-3ad7-4d1e-aed8-d1863f599e9d" InformativeScreenshot="707e93ad314ae7d703014260aa808800.jpg" Reference="4z0pUYqlt0mltA2OTYmI2A/zQHZHhjXu0K0ZDfgcxpwFg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='usi_last_url_1=https://www.udemy.com/course/complete-ai-guide/?couponCodeUSIEQLSUDEAFFHP22025=1783617602897;usi_pv_count=15=1783617602897;usi_subtotal==1784200803923;usi_pids=5170404=1784200803923;usi_prod_name_1=The Complete AI Guide: Learn ChatGPT, Claud*' title='The Complete AI Guide: Learn ChatGPT, Claude &amp;amp; Generative AI' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="a19e17e6-f368-41ec-8e9b-aad77275d7c4" CvTextArea="1365, 630, 173, 19" CvTextArgument="Subscribe and save" CvType="Text" DesignTimeRectangle="1368, 624, 338, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ud-text-md' tag='SPAN' type='' aaname='Subscribe and save' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Subscribe and save' /&gt;" Guid="590bba2c-3bd8-4817-aa7d-07eb18baa2cc" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+              <uix:NGetText.TextString>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">str_Price</CSharpReference>
+                </OutArgument>
+              </uix:NGetText.TextString>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text '4.5'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,142.4" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="e5f07dee-8f68-435d-9d70-7bed6eb82f1e" Version="V5">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="udemy.com/course/complete-ai-guide" CVScreenId="a19e17e6-f368-41ec-8e9b-aad77275d7c4" ContentHash="-keEr1S-eUq3Nii0xkAS8w" CvElementArea="804, 792, 91, 57" CvType="Icon" DesignTimeRectangle="828, 793, 43, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='ud-heading-xl' tag='SPAN' /&gt;" Guid="0c40b1f1-ea1e-48d0-9c29-234344da2b44" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACsAAAAhCAYAAABAxlKmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJkSURBVFhH7ZWxa9tQEMb996SgoUs9FAkMNRQvFoJSPBgKGjIZMoh6ERm0eUrIEoqxaIYiaMjkLs5g5MXN0C2kILBxcAiFkAwOAQsMX5ErV08nRVIi2TjgD27Ru3fvp9Onezm8IOXog3XWBnZZ2sAuS8lghwYkTsDWKzckA2Oak1DTH6pXJ1FoMN298bCzc2gCKZACdvClGgIUEcUmLty9MbD3MOtisEAKWLMeAhQVzFmRsDffd4KbU8FeQ5e8OlLrmiZE6nFY4lNeKGUA24fCvLTSpevRCoelPpWOoLOf77mwVwak/7Ay9EuaEK0QWOpTGYdD4rXnwvYaTF0NnTsLxwcqKgXmq+VFVGpNHP++p7uDsOOvMlPQ8dVo/jwLWN8/kBfBs+MwJHjlFDczb78fls7TDwYGbnIWsBd7HwNAccHX+5i4+z3Yhz5U1qd5DZ1FViawNto1AiN8hn52i6nbkOlkhM4uncMlKF17vu7CUp+KULp+z6SHHeGwzNTgZOhDmuOIsgjYqp1iuoB9zKes0sP+69xPo4laRYR0YNFlT39OUGFhucb8ys2F+TQMJAvY5LKwX2TOc8bcFZAbt/xdfXo8fV7Gy3/TLc5YU1jaWQ2d2UphbUysX2i3GvhULmHbuKUJnqhny0cYBOZshFJ79mwPb1gAQYPJjEZPNsxd/zQouj9jtrBdzd91X56F/ffkqxQ0fDuPmbOcirb7UiuEDbkhY8M/71cL63TPOsF2gUKFxOsqGj3/xbRy2LlmNgY9A6pcRfHtOy+fK4Ev70Bt9TF2riyixLDroA3ssrSBXZZeFOxfKMPnCSCKW2wAAAAASUVORK5CYII=" InformativeScreenshot="5ff3e7262a61d318ae5bc695cd5a8239.jpg" Reference="4z0pUYqlt0mltA2OTYmI2A/wVepVVltB0u0BQFtRwCQMw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='usi_last_url_1=https://www.udemy.com/course/complete-ai-guide/?couponCodeUSIEQLSUDEAFFHP22025=1783617602897;usi_pv_count=15=1783617602897;usi_subtotal==1784200803923;usi_pids=5170404=1784200803923;usi_prod_name_1=The Complete AI Guide: Learn ChatGPT, Claud*' title='The Complete AI Guide: Learn ChatGPT, Claude &amp;amp; Generative AI' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="a19e17e6-f368-41ec-8e9b-aad77275d7c4" CvElementArea="804, 792, 91, 57" CvType="Icon" DesignTimeRectangle="806, 826, 87, 20" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;svg' tag='svg' /&gt;" Guid="d9e4b274-c23c-40d9-b6fb-b1782c53decf" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFcAAAAUCAYAAAD4BKGuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAH6SURBVFhH7ZY/SwMxGMb7BQodFBzq5lY3N1fBwc3RT6DgVApVbtChIIKLCoKTkxQEQUQHN0FqW2pVqAWhxVIFBxFBnNwiTyRH7r1cLgceZsgPXsrlz3tPnkveNMMcqZGhDY6/w5mbIs7cFIk1t3+0zL6eGrQ5EZj/eLBAmxNjk5bBqce+P55pcwCtuS8XG6xWzLL66lhsIh2YjzzD8zXaZYyNWm4qBa0WrbkNL8+T1Eo59tY6pN1GfPavfnMUs6y1PkG7jbFNS7tS4ObqtITMxeDXyx02OFnxhSCQEG3o130tgEWIHO3KZCBPr7rI+zAmLo/NWjrbM6xXXeIGYyertATMvd+aDrxcF+93x/JUH9Q0OjYqml6eTvexXcvD3hw3E78ImIx22eCAufyrlHKhRDRQt6JAcv8Ix4Su7tmuBYYKhMkwWCZUFrD1aSI5cLRMoEeQBo5iHDZrEeaKOi6bLQiZCzq7syEBImhd0UHniujuz9OhkdiqhZqr0qI093ZzKiRChMlXBngZnSvCdMcBW7U0vXH/EovSojSXvvy6POI/62qTDG5imkd+NoXmsEULjEaNxQ7Gs+ovmdLcenmUL0L+GvxIlHJseGa2ICwc4zFPgFsdFwzym2K7FvF3zHjnRqGqK/+FTVqiSGSuIxnO3BRx5qaIMzdFfgASJtkiluGPZwAAAABJRU5ErkJggg==" SearchSteps="Selector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+              <uix:NGetText.TextString>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">str_Rating</CSharpReference>
+                </OutArgument>
+              </uix:NGetText.TextString>
+            </uix:NGetText>
+            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,233.6" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="scg:List(x:String)">
+                        <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">List_Titles</CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="scg:IEnumerable(x:String)">
+                        <CSharpValue x:TypeArguments="scg:IEnumerable(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">List_Titles.Append(str_Title)</CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="scg:List(x:String)">
+                        <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">List_Authors</CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="scg:IEnumerable(x:String)">
+                        <CSharpValue x:TypeArguments="scg:IEnumerable(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">List_Authors.Append(str_Author)</CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="scg:List(x:String)">
+                        <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">List_Price</CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="scg:IEnumerable(x:String)">
+                        <CSharpValue x:TypeArguments="scg:IEnumerable(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">List_Price.Append(str_Price.Replace("EGP", "").Trim())</CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="scg:List(x:String)">
+                        <CSharpReference x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">List_Rating</CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="scg:IEnumerable(x:String)">
+                        <CSharpValue x:TypeArguments="scg:IEnumerable(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">List_Price.Append(str_Price)</CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+            </ui:MultipleAssign>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.CloseMode>
+        <InArgument x:TypeArguments="uix:NAppCloseMode">
+          <CSharpValue x:TypeArguments="uix:NAppCloseMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">UiPath.UIAutomationNext.Enums.NAppCloseMode.Never</CSharpValue>
+        </InArgument>
+      </uix:NApplicationCard.CloseMode>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.OpenMode>
+        <InArgument x:TypeArguments="uix:NAppOpenMode">
+          <CSharpValue x:TypeArguments="uix:NAppOpenMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">UiPath.UIAutomationNext.Enums.NAppOpenMode.Never</CSharpValue>
+        </InArgument>
+      </uix:NApplicationCard.OpenMode>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="tYGvr2FQ0ECcXtq6dAhoVA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAHRAAAB0QEMkUzzAAAAB3RJTUUH5QkNFC0SvZu6NgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAMqSURBVFhHzZbPaxNREMdzU0F7ExRvol5EoTRvQ62HotCrp7bWf8GTIognFUFBPAn+qpZS96XV0INYexPqD0y0FKuoIB48tBSb9Ndskm2bpMmTed1u8ua9dtdKql/4wLIz82Z236+JREKKx+Ya7KjTFWfwkDMYtRlkOIMi4j2Pcgbd8ahzuqdlZheN37T6rOwhbkEPZ+ByBiIkrh2FR/GYc5COF1qJ5skdnMEtzqBkSBCWIrfgZm+r2E7H31BYOWfwxTCgQn/LKvS9gZTd5O6leYwaiC40enNKB1EYOe+K3GRZuNNlkby8qNkNTPbH5o/SfIrwy4OSP2/PiqlkSVBNj5XE8Jmc5k+L6GX5PTSvFM4TZ/DJECRJnHTE9ycFUVmhqauqlIX4OVwUg22OFl/DGK4vmj/iLTjqLOk/BqKQrWjJfgwWJPhcK/TFGDpOlYWrSnK51TZY7QMtoCTA3/2iq/q75bS8U6cFY+g4PhbklKnw9rnuSAoIWnBrCzOwAAbCZnB3NXlsriHokMHfOX5nKXBQBH3Qd+MpkOTliYnHq8G4VXRGvLOdGrYEm8EDXP14iWjGWuIxEC/P5n0GjuvbDN/V+mAM9TGQwgJmDAZ1cLILnp3Kaj74rlZh1gtnkMYCCgaDQr0KsBks/xcF/PMpCFyEdSxALsJug0GhbgVYcD+CPZxmINSrgLgF7ZHE4cxOPBapsRbsemo11KEXMNSZU3zCHMWYW94H2EAaHBRKS9XrOHlFv5BS1xZ9ezFf0ewGuv3b0OsBscWmTj7pj9Xr1s2U5RW8Zhtqz4rFmWqBvz6UtHhCIc5gv18ACrtXg6PP20uunwBVLgqRHi9JyqRDe3XB1eIJN5TkKK8lSxmcfbAlC9K3x8taHCF5+4DYRvNLYZfCGUwYgnzeXHTF7NcVpQ3D58znFTFyLq/5qzhTfc2z+2heRdg6Y/eqB6skTjhyN+D8P23Vb0cDE7xp/gjNZ1SiMbebM3htGGSzJNdtx9cTzhN2r0FnRAB40V1fd87DCCvHBvIPC8ljt6Nttb+Rd2J24vnNLXiPN5n3hUhavovCPZtBh3/ChdBv7ey5bUeqTp4AAAAASUVORK5CYII=" InformativeScreenshot="79b2639f1d7c2de609f87ec4134a05a2.jpg" Reference="4z0pUYqlt0mltA2OTYmI2A/4C52InKJzkmdhvEjR1I_Dg" Selector="&lt;html app='chrome.exe' htmlwindowname='usi_last_url_1=https://www.udemy.com/courses/search/?srcUSIEQLSukw&amp;amp;qUSIEQLSai=1783614783915;usi_pv_count=12=1783614783915;' title='Search results | Udemy' /&gt;" Url="https://www.udemy.com/courses/search/?src=ukw&amp;q=ai" Version="V3">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

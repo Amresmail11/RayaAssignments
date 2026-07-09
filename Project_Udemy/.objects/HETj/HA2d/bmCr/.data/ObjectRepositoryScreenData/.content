@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="bsVErjXSQ0uylu3kOC_UYg" Reference="4z0pUYqlt0mltA2OTYmI2A/bmCrXOx-dk6y7o7NA3JAZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="uCG1UfjreE-r4Vh8t8_ccw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAHRAAAB0QEMkUzzAAAAB3RJTUUH5QkNFC0SvZu6NgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAMqSURBVFhHzZbPaxNREMdzU0F7ExRvol5EoTRvQ62HotCrp7bWf8GTIognFUFBPAn+qpZS96XV0INYexPqD0y0FKuoIB48tBSb9Ndskm2bpMmTed1u8ua9dtdKql/4wLIz82Z236+JREKKx+Ya7KjTFWfwkDMYtRlkOIMi4j2Pcgbd8ahzuqdlZheN37T6rOwhbkEPZ+ByBiIkrh2FR/GYc5COF1qJ5skdnMEtzqBkSBCWIrfgZm+r2E7H31BYOWfwxTCgQn/LKvS9gZTd5O6leYwaiC40enNKB1EYOe+K3GRZuNNlkby8qNkNTPbH5o/SfIrwy4OSP2/PiqlkSVBNj5XE8Jmc5k+L6GX5PTSvFM4TZ/DJECRJnHTE9ycFUVmhqauqlIX4OVwUg22OFl/DGK4vmj/iLTjqLOk/BqKQrWjJfgwWJPhcK/TFGDpOlYWrSnK51TZY7QMtoCTA3/2iq/q75bS8U6cFY+g4PhbklKnw9rnuSAoIWnBrCzOwAAbCZnB3NXlsriHokMHfOX5nKXBQBH3Qd+MpkOTliYnHq8G4VXRGvLOdGrYEm8EDXP14iWjGWuIxEC/P5n0GjuvbDN/V+mAM9TGQwgJmDAZ1cLILnp3Kaj74rlZh1gtnkMYCCgaDQr0KsBks/xcF/PMpCFyEdSxALsJug0GhbgVYcD+CPZxmINSrgLgF7ZHE4cxOPBapsRbsemo11KEXMNSZU3zCHMWYW94H2EAaHBRKS9XrOHlFv5BS1xZ9ezFf0ewGuv3b0OsBscWmTj7pj9Xr1s2U5RW8Zhtqz4rFmWqBvz6UtHhCIc5gv18ACrtXg6PP20uunwBVLgqRHi9JyqRDe3XB1eIJN5TkKK8lSxmcfbAlC9K3x8taHCF5+4DYRvNLYZfCGUwYgnzeXHTF7NcVpQ3D58znFTFyLq/5qzhTfc2z+2heRdg6Y/eqB6skTjhyN+D8P23Vb0cDE7xp/gjNZ1SiMbebM3htGGSzJNdtx9cTzhN2r0FnRAB40V1fd87DCCvHBvIPC8ljt6Nttb+Rd2J24vnNLXiPN5n3hUhavovCPZtBh3/ChdBv7ey5bUeqTp4AAAAASUVORK5CYII=" Reference="4z0pUYqlt0mltA2OTYmI2A/bmCrXOx-dk6y7o7NA3JAZQ" Selector="&lt;html app='chrome.exe' htmlwindowname='usi_last_url_1=https://www.udemy.com/courses/search/?srcUSIEQLSukw&amp;amp;qUSIEQLSai=1783614783915;usi_pv_count=12=1783614783915;' title='Search results | Udemy' /&gt;" Url="https://www.udemy.com/courses/search/?src=ukw&amp;q=ai" Version="V3">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="c41081a8d553a5929519a934b861ce8d.jpg" xmlns="">0_k8t49iEOUWhwE0mj_D7gQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

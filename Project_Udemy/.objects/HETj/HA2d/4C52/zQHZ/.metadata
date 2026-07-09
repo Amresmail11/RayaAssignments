@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Subscribe and save",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "zQHZHhjXu0K0ZDfgcxpwFg",
+  "Reference": "4z0pUYqlt0mltA2OTYmI2A/zQHZHhjXu0K0ZDfgcxpwFg",
+  "ParentRef": "4z0pUYqlt0mltA2OTYmI2A/4C52InKJzkmdhvEjR1I_Dg",
+  "Created": "2026-07-09T11:22:42.4350902Z",
+  "Updated": "2026-07-09T11:22:42.4350902Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

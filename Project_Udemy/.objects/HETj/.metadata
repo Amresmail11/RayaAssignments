@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Udemy Online Courses for Skills, Careers & AI",
+  "Type": "App",
+  "Id": "HETjxtC3OkqezvF87J0Ivg",
+  "Reference": "4z0pUYqlt0mltA2OTYmI2A/HETjxtC3OkqezvF87J0Ivg",
+  "Created": "2026-07-09T09:43:35.5704493Z",
+  "Updated": "2026-07-09T09:43:35.5704493Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

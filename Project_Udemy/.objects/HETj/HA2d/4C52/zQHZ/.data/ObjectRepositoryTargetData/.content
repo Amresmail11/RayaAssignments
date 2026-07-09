@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6Z1Dj2ek90KONw26XJjXYw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="udemy.com/course/complete-ai-guide" CVScreenId="a19e17e6-f368-41ec-8e9b-aad77275d7c4" CvType="AnyWordGroup" DesignTimeRectangle="1366, 658, 225, 26" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="c14a399f-3ad7-4d1e-aed8-d1863f599e9d" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='usi_last_url_1=https://www.udemy.com/course/complete-ai-guide/?couponCodeUSIEQLSUDEAFFHP22025=1783617602897;usi_pv_count=15=1783617602897;usi_subtotal==1784200803923;usi_pids=5170404=1784200803923;usi_prod_name_1=The Complete AI Guide: Learn ChatGPT, Claud*' title='The Complete AI Guide: Learn ChatGPT, Claude &amp;amp; Generative AI' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a19e17e6-f368-41ec-8e9b-aad77275d7c4" CvTextArea="1365, 630, 173, 19" CvTextArgument="Subscribe and save" CvType="Text" DesignTimeRectangle="1368, 624, 338, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ud-text-md' tag='SPAN' type='' aaname='Subscribe and save' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Subscribe and save' /&gt;" Guid="590bba2c-3bd8-4817-aa7d-07eb18baa2cc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="707e93ad314ae7d703014260aa808800.jpg" xmlns="">0rCQI5SB2TE2jmM5way243Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

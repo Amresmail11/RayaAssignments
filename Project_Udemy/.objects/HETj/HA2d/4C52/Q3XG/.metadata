@@ -1,0 +1,14 @@
+﻿{
+  "Name": "The Complete AI Guide …(2)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Q3XGAWzzhUOP7Qd7MMwG4g",
+  "Reference": "4z0pUYqlt0mltA2OTYmI2A/Q3XGAWzzhUOP7Qd7MMwG4g",
+  "ParentRef": "4z0pUYqlt0mltA2OTYmI2A/4C52InKJzkmdhvEjR1I_Dg",
+  "Created": "2026-07-09T11:18:21.3969646Z",
+  "Updated": "2026-07-09T11:18:21.3969646Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

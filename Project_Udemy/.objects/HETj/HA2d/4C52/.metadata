@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Search results  Udemy(1)",
+  "Type": "Screen",
+  "Id": "4C52InKJzkmdhvEjR1I_Dg",
+  "Reference": "4z0pUYqlt0mltA2OTYmI2A/4C52InKJzkmdhvEjR1I_Dg",
+  "ParentRef": "4z0pUYqlt0mltA2OTYmI2A/HA2dne39p0SdZFjuj1e7Kw",
+  "Created": "2026-07-09T10:47:06.343642Z",
+  "Updated": "2026-07-09T10:47:06.343642Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

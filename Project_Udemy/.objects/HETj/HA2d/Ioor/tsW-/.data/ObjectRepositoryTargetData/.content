@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YiG5GK_SdEaZykD0iNp_bg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="udemy.com/courses/search" DesignTimeRectangle="152, 370, 1080, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="4863bed2-f9b6-461a-954a-7619bb0b7c63" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='usi_entry_url_1=https://www.udemy.com/?im_refUSIEQLSV3ozLDyOnxyZRdJ1t4U3Rz4sUkuVS40r1z-IXY0&amp;amp;utm_mediumUSIEQLSaffiliate&amp;amp;utm_sourceUSIEQLSimpact&amp;amp;utm_audienceUSIEQLSmx&amp;amp;utm_tacticUSIEQLS%22Content%22%2C%22ROW%22&amp;amp;utm_contentUSIEQLS3193860&amp;amp;irgwcUSIEQLS1&amp;amp;afsrcUSI*' title='Search results | Udemy' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1047e36737fbcb80c653aaff170ac2ce.jpg" xmlns="">0-byzMHV_t0WW7Lhyy0YWWA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

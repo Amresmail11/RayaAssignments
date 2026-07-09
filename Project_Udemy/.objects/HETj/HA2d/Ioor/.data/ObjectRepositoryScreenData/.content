@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="lGn2Ch9P3U69mBAvpwWYRg" Reference="4z0pUYqlt0mltA2OTYmI2A/IoorC-XzW0ySLzrm3MaPxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="W65QHoGAtEic_kIIsNXkig" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAADKklEQVRYR82Wz2sTURDHc1NBexMUb6JeRKE0b0Oth6LQq6e21n/BkyKIJxVBQTwJ/qqWUvel1dCDWHsT6g9MtBSrqCAePLQUm/TXbJJtm6TJk3ndbvLmvXbXSqpf+MCyM/Nmdt+viURCisfmGuyo0xVn8JAzGLUZZDiDIuI9j3IG3fGoc7qnZWYXjd+0+qzsIW5BD2fgcgYiJK4dhUfxmHOQjhdaiebJHZzBLc6gZEgQliK34GZvq9hOx99QWDln8MUwoEJ/yyr0vYGU3eTupXmMGoguNHpzSgdRGDnvitxkWbjTZZG8vKjZDUz2x+aP0nyK8MuDkj9vz4qpZElQTY+VxPCZnOZPi+hl+T00rxTOE2fwyRAkSZx0xPcnBVFZoamrqpSF+DlcFINtjhZfwxiuL5o/4i046izpPwaikK1oyX4MFiT4XCv0xRg6TpWFq0pyudU2WO0DLaAkwN/9oqv6u+W0vFOnBWPoOD4W5JSp8Pa57kgKCFpwawszsAAGwmZwdzV5bK4h6JDB3zl+ZylwUAR90HfjKZDk5YmJx6vBuFV0RryznRq2BJvBA1z9eIloxlriMRAvz+Z9Bo7r2wzf1fpgDPUxkMICZgwGdXCyC56dymo++K5WYdYLZ5DGAgoGg0K9CrAZLP8XBfzzKQhchHUsQC7CboNBoW4FWHA/gj2cZiDUq4C4Be2RxOHMTjwWqbEW7HpqNdShFzDUmVN8whzFmFveB9hAGhwUSkvV6zh5Rb+QUtcWfXsxX9HsBrr929DrAbHFpk4+6Y/V69bNlOUVvGYbas+KxZlqgb8+lLR4QiHOYL9fAAq7V4Ojz9tLrp8AVS4KkR4vScqkQ3t1wdXiCTeU5CivJUsZnH2wJQvSt8fLWhwhefuA2EbzS2GXwhlMGIJ83lx0xezXFaUNw+fM5xUxci6v+as4U33Ns/toXkXYOmP3qgerJE44cjfg/D9t1W9HAxO8af4IzWdUojG3mzN4bRhksyTXbcfXE84Tdq9BZ0QAeNFdX3fOwwgrxwbyDwvJY7ejbbW/kXdiduL5zS14jzeZ94VIWr6Lwj2bQYd/woXQb+3suW1Hqk6eAAAAAElFTkSuQmCC" Reference="4z0pUYqlt0mltA2OTYmI2A/IoorC-XzW0ySLzrm3MaPxw" Selector="&lt;html app='chrome.exe' htmlwindowname='usi_entry_url_1=https://www.udemy.com/?im_refUSIEQLSV3ozLDyOnxyZRdJ1t4U3Rz4sUkuVS40r1z-IXY0&amp;amp;utm_mediumUSIEQLSaffiliate&amp;amp;utm_sourceUSIEQLSimpact&amp;amp;utm_audienceUSIEQLSmx&amp;amp;utm_tacticUSIEQLS%22Content%22%2C%22ROW%22&amp;amp;utm_contentUSIEQLS3193860&amp;amp;irgwcUSIEQLS1&amp;amp;afsrcUSI*' title='Udemy: Online Courses for Skills, Careers &amp;amp; AI' /&gt;" Url="https://www.udemy.com/" Version="V3">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="7948407406dbe81a7a0f1c7a16b65381.jpg" xmlns="">0Wrh9_6CZ-EawfeBM7zn6Mw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
