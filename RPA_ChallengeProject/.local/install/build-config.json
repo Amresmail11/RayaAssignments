@@ -1,0 +1,12 @@
+{
+  "Version": "1.0",
+  "IncludeWorkflows": [
+    "Main.xaml",
+    "Excel/Excel_ExtractChallengeData.xaml",
+    "Excel/Excel_ExtractEmailData.xaml",
+    "RPAChallengeWeb/ChallengeStart.xaml",
+    "RPAChallengeWeb/WebFormFilling.xaml",
+    "RPAChallengeWeb/Screenshot.xaml",
+    "Email/Email_SendReportToAll.xaml"
+  ]
+}

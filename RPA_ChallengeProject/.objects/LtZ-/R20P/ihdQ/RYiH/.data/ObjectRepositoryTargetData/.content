@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="75eHqpdRIUSJQHlv3uxqag" Reference="BZCl_jqKQEKoO-o4HciN2Q/RYiHX_IyjkORGaRYfQuDhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" CVScreenId="e185693f-d765-4f45-a021-ec9c487bb75a" CvElementArea="616, 667, 390, 52" CvType="InputBox" DesignTimeRectangle="623, 361, 378, 57" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl class='ng-untouched ng-pristine ng-invalid' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="a6c2ce07-1cd0-47d0-ad21-d49335fefc32" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e185693f-d765-4f45-a021-ec9c487bb75a" CvTextArea="621, 637, 131, 20" CvTextArgument="Role in Company" CvType="Text" DesignTimeRectangle="623, 337, 128, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Role in Company' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Role in Company' /&gt;" Guid="09d9316e-6ea6-4007-8f59-e0da148647a4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a2ec06108bd799bceedcbab9c60df5bf.jpg" xmlns="">0egxmlVdjJEuc43cmO7DQOA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
