@@ -1,0 +1,93 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "activityDisplayName": "Get Email List",
+      "activityId": "GetEmailListConnections_1",
+      "resource": "Connection",
+      "key": "dfb5c563-0a1b-42ec-9eba-2699ce1593be",
+      "id": "Connectiondfb5c563-0a1b-42ec-9eba-2699ce1593bedfb5c563-0a1b-42ec-9eba-2699ce1593beFalse",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "dfb5c563-0a1b-42ec-9eba-2699ce1593be",
+          "isExpression": false,
+          "displayName": "Connection",
+          "description": "The connection to be used"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2",
+        "Connector": "uipath-google-gmail",
+        "UseConnectionService": "True"
+      }
+    },
+    {
+      "activityDisplayName": "Get Email List",
+      "activityId": "GetEmailListConnections_1",
+      "resource": "Property",
+      "key": "dfb5c563-0a1b-42ec-9eba-2699ce1593be.Get Email List",
+      "id": "Propertydfb5c563-0a1b-42ec-9eba-2699ce1593be.Get Email ListInboxFalseINBOXFalse",
+      "value": {
+        "ParentFolders[*].Name": {
+          "defaultValue": "Inbox",
+          "isExpression": false,
+          "displayName": "Email folder or label",
+          "description": "The folder or label to get email messages from"
+        },
+        "ParentFolders[*].ID": {
+          "defaultValue": "INBOX",
+          "isExpression": false,
+          "displayName": "Email folder or label",
+          "description": "The folder or label to get email messages from"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.1",
+        "ActivityName": "Get Email List",
+        "ObjectName": "NormalizedMessage",
+        "DisplayLabel": "ParentFolders[*].Name",
+        "ParentResourceKey": "Connection.dfb5c563-0a1b-42ec-9eba-2699ce1593be"
+      }
+    },
+    {
+      "activityDisplayName": "Get Asset",
+      "activityId": "GetRobotAsset_1",
+      "resource": "asset",
+      "key": "Session 8.Attatchemnt Path",
+      "id": "assetSession 8.Attatchemnt PathSession 8FalseAttatchemnt PathFalse",
+      "value": {
+        "folderPath": {
+          "defaultValue": "Session 8",
+          "isExpression": false
+        },
+        "name": {
+          "defaultValue": "Attatchemnt Path",
+          "isExpression": false
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2"
+      }
+    },
+    {
+      "activityDisplayName": "Send Email",
+      "activityId": "SendEmailConnections_3",
+      "resource": "Connection",
+      "key": "abc970c4-f939-4f05-bb4e-7093e4496d70",
+      "id": "Connectionabc970c4-f939-4f05-bb4e-7093e4496d70abc970c4-f939-4f05-bb4e-7093e4496d70False",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "abc970c4-f939-4f05-bb4e-7093e4496d70",
+          "isExpression": false,
+          "displayName": "Connection",
+          "description": "The connection to be used"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2",
+        "Connector": "uipath-google-gmail",
+        "UseConnectionService": "True"
+      }
+    }
+  ]
+}
